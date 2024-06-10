@@ -1,4 +1,4 @@
-# Создание текстового файла
+# создаю текстовый файл
 file_name = "poem.txt"
 with open(file_name, "w", encoding="utf-8") as file:
     file.write("""
@@ -21,7 +21,6 @@ And ached in sleepless silence, long;
 And now 'tis doomed to know the worst,
 And break at once - or yield to song.
 """)
-# Распечатка содержимого текстового файла в консоль
+# Распечатываю содержимое файла
 with open(file_name, "r", encoding="utf-8") as file:
     print(file.read())
-    
